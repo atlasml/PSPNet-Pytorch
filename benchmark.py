@@ -27,9 +27,9 @@ def benchmark():
         model=pspnet,  
         input_transform = val_input_transform,
         target_transform = target_transform,
-        paper_model_name='EfficientNet',
-        paper_arxiv_id='1802.02611',
-        paper_pwc_id='encoder-decoder-with-atrous-separable',
+        paper_model_name='PSPNet',
+        paper_arxiv_id='1612.01105',
+        paper_pwc_id='pyramid-scene-parsing-network',
         batch_size=32,
         num_gpu=1
         )
